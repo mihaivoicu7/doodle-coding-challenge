@@ -23,3 +23,25 @@
 /nbdist/
 /.nb-gradle/
 /build/
+
+#JS ignore
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+/src/main/app/node_modules
+/src/main/app/.pnp
+.pnp.js
+
+# testing
+/src/main/app/coverage
+
+# production
+/src/main/app/build
